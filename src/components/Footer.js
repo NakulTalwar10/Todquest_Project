@@ -29,7 +29,7 @@ const Footer = () => {
           </h1>
           <div className='flex flex-wrap justify-center lg:justify-start'>
             <img src={Apple} alt="" className='mt-[-40px] lg:mt-[-40px] mr-4 lg:mr-0' />
-            <img src={Google} alt="" className='mt-[-100px] lg:mt-[-100px]' />
+            <img src={Google} alt="" className='mt-[-50px] lg:mt-[-50px]' />
           </div>
 
         </div>
