@@ -27,10 +27,11 @@ const Footer = () => {
           <h1 className='text-white my-3 r sm:text-left font-thin'>
             Lorem Ipsum is simply dummy of <br /> the printing and typesetting.
           </h1>
-          <div className=''>
-            <img src={Apple} alt="" className='mt-[-40px] lg:mt-[-40px] ' />
-            <img src={Google} alt="" className='mt-[-40px] lg:mt-[-100px] ' />
+          <div className='flex flex-wrap justify-center lg:justify-start'>
+            <img src={Apple} alt="" className='mt-[-40px] lg:mt-[-40px] mr-4 lg:mr-0' />
+            <img src={Google} alt="" className='mt-[-100px] lg:mt-[-100px]' />
           </div>
+
         </div>
 
         <div className='text-[red] font-bold  my-6 sm:w-1/5'>
